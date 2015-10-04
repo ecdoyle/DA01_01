@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.emiliedoyle.da01_01.AddPage">
+
+    <TextView android:text="Add A Mentor(sharks420)" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:textColor="#9e64d8"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:gravity="center_horizontal"/>
+
+    <EditText
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:textColorHint="#898686"
+        android:ems="10"
+        android:id="@+id/enterName"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        android:ems="10"
+        android:id="@+id/enterEmail"
+        android:layout_below="@+id/enterName"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="E-mail"
+        android:textColorHint="#898686"
+        android:layout_alignRight="@+id/enterName"
+        android:layout_alignEnd="@+id/enterName"/>
+
+    <EditText
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/enterMajor"
+        android:layout_below="@+id/enterEmail"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:hint="Major"
+        android:textColorHint="#898686"
+        android:layout_alignRight="@+id/enterName"
+        android:layout_alignEnd="@+id/enterName" />
+
+</RelativeLayout>
+<!-- From: file:/Users/emiliedoyle/AndroidStudioProjects/a/DA01_01/app/src/main/res/layout/activity_add_page.xml -->
